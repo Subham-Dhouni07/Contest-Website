@@ -137,6 +137,8 @@ h3 a:hover{
     font-size: 15px;
 }
 
+/* BreakPoints */
+
 @media (max-width: 1000px){
     .hero_banner img {
         width: 100%;
@@ -145,7 +147,23 @@ h3 a:hover{
  }
 
  @media (max-width: 800px){
-    .container{
-        flex-direction: column;
+    #container{
+        display: block;
     }
- } 
+
+    .box{
+        width: auto;
+        margin: 20px 20% 20px 20% ;
+    }
+ }
+
+ @media (max-width: 500px){
+    #container{
+        display: block;
+    }
+
+    .box{
+        width: auto;
+        margin: 20px 50px 20px 50px ;
+    }
+ }
