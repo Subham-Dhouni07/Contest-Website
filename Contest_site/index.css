@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;;
+}
+
+header{
+    background-color: rgb(205, 233, 250);
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Site_name{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+   
+    background: rgb(150,152,227);
+    background: linear-gradient(90deg, rgba(150,152,227,1) 0%, rgba(57,162,184,1) 100%);
+}
+
+.Dialogue{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Tilt Prism, Courier, monospace;
+    font-weight: bold;
+    color:darkblue;
+}
+
+.intro{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+
+main{
+    background-image: url("https://images.ctfassets.net/idmfh0ehr6d7/3l7fIC4HD22s2iYWiE6Cam/4760a0ebeff1e72117657eba7e8546e3/pattern.png");
+    background-repeat:repeat;
+}
+
+#sub_head{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:cadetblue;
+    color: rgb(253, 250, 250);
+    border: none;
+}
+
+.hero_banner img{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.box{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 209, 209);
+    margin:10px;
+    width: 25%;
+    padding: 10px;
+    height:auto;
+    border-radius: 15px;
+    transition: .5s ease;
+}
+
+.box:hover{
+    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    transform: scale(1.05);
+}
+
+.box img{
+     height: 250px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box p{
+    font-family:Lato, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    
+}
+
+.box h4{
+    font-family:Lato, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+#btn{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+h3 a{
+    background-color: aliceblue;
+    color: orange;
+    padding: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+h3 a:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 7%;
+    background: rgb(150,152,227);
+    background: linear-gradient(90deg, rgba(150,152,227,1) 0%, rgba(57,162,184,1) 100%);
+}
+
+.footer-text{
+    font-size: 15px;
+}
+
+@media (max-width: 1000px){
+    .hero_banner img {
+        width: 100%;
+        padding: 0px;
+    }
+ }
+
+ @media (max-width: 800px){
+    .container{
+        flex-direction: column;
+    }
+ } 
