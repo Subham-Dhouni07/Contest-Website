@@ -19,7 +19,7 @@ response.then((value) =>{
                 iHTML += 
                 `
                 <div class = "box">
-                <img src="../contest_image/${pics[Math.floor(Math.random() * 24)]}.jpeg" alt="img">s
+                <img src="../contest_image/${pics[Math.floor(Math.random() * 24)]}.jpeg" alt="img">
                 <h4>Name:  ${contests[item].name}</h4>
                 <p>
                     Site:   ${contests[item].site} <br>
