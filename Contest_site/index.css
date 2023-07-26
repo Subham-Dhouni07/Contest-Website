@@ -147,23 +147,7 @@ h3 a:hover{
  }
 
  @media (max-width: 800px){
-    #container{
-        display: block;
+    .container{
+        flex-direction: column;
     }
-
-    .box{
-        width: auto;
-        margin: 20px 20% 20px 20% ;
-    }
- }
-
- @media (max-width: 500px){
-    #container{
-        display: block;
-    }
-
-    .box{
-        width: auto;
-        margin: 20px 50px 20px 50px ;
-    }
- }
+ } 
